@@ -1,0 +1,100 @@
+* {
+	font-family: "Noto Sans", sans-serif;
+}
+
+body {
+	background-color: #edc4a3;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.form {
+	background-color: #dcdcdc;
+	padding: 20px;
+	width: 300px;
+	margin: 40px auto;
+	border-radius: 4px;
+	margin-left: auto;
+}
+
+button {
+	border: none;
+	background-color: #a30000;
+	padding: 5px;
+	color: #dcdcdc;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+button:hover {
+	background: radial-gradient(circle, #a30000 1%, #530000 100%);
+}
+
+.form input {
+	margin: 5px 0;
+	padding: 5px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: none;
+}
+
+input[type="submit"] {
+	border: none;
+	background-color: #186;
+	color: #dcdcdc;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background: radial-gradient(circle, #186 1%, #20be92 100%);
+}
+
+#eventsContainer {
+	background-color: #dcdcdc;
+	border-radius: 4px;
+	padding: 20px;
+	max-width: 500px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.event {
+	border: solid 1px #b3b3b3;
+	border-radius: 4px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.event .days {
+	text-align: center;
+	width: 100px;
+}
+
+.event .days .days-number {
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+}
+
+.event .event-name {
+	padding: 10px;
+	width: 200px;
+}
+
+.event .event-date {
+	padding: 10px;
+	width: 100px;
+}
