@@ -29,17 +29,27 @@ button {
 	color: #dcdcdc;
 	cursor: pointer;
 	border-radius: 4px;
+	transition-duration: 0.5s;
 }
 
 button:hover {
-	background: radial-gradient(circle, #a30000 1%, #530000 100%);
+	box-shadow: inset 0px 0px 49px 0px #560000;
+	color: white;
+	text-shadow: 0 0 16px white;
+}
+button:active {
+	box-shadow: inset 0px 0px 49px 0px #560000;
+	color: white;
+	text-shadow: 0 0 16px white;
 }
 
 .form input {
+	color: #1e1e1e;
 	margin: 5px 0;
 	padding: 5px;
 	display: block;
 	width: 100%;
+	font-size: 16px;
 	box-sizing: border-box;
 	border-radius: 4px;
 	border: none;
@@ -50,12 +60,32 @@ input[type="submit"] {
 	background-color: #186;
 	color: #dcdcdc;
 	padding: 10px;
+	margin-top: 25px;
 	border-radius: 4px;
 	cursor: pointer;
+	transition-duration: 0.5s;
 }
 
 input[type="submit"]:hover {
-	background: radial-gradient(circle, #186 1%, #20be92 100%);
+	color: white;
+	box-shadow: inset 0px 0px 49px 0px #98f2b9;
+	text-shadow: 0 0 16px white;
+}
+input[type="submit"]:active {
+	color: white;
+	box-shadow: inset 0px 0px 49px 0px #98f2b9;
+	text-shadow: 0 0 16px white;
+}
+
+h1 {
+	border-radius: 4px;
+	color: #1e1e1e;
+	font-size: 40px;
+	max-width: 500px;
+	text-align: center;
+	padding: 20px;
+	background-color: #dcdcdc;
+	margin: 10px auto 10px;
 }
 
 #eventsContainer {
@@ -63,7 +93,7 @@ input[type="submit"]:hover {
 	border-radius: 4px;
 	padding: 20px;
 	max-width: 500px;
-	margin: 100px auto;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -72,6 +102,7 @@ input[type="submit"]:hover {
 .event {
 	border: solid 1px #b3b3b3;
 	border-radius: 4px;
+	color: #1e1e1e;
 	padding: 10px;
 	display: flex;
 	align-items: center;
