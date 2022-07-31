@@ -95,8 +95,8 @@ h1 {
 	max-width: 500px;
 	margin: 0 auto;
 	display: flex;
-	flex-direction: column;
 	gap: 20px;
+	flex-direction: column;
 }
 
 .event {
