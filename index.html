@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66cfa0c826.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Cuenta regresiva</title>
 </head>
@@ -17,13 +18,13 @@
         <div class="container">
             <div class="form">
                 <form action="">
-                    <input type="text" id="eventName">
+                    <input type="text" id="eventName" placeholder="Nuevo evento" maxlength="50">
                     <input type="date" id="eventDate">
                     <input type="submit" id="bAdd" value="Añadir evento">
                 </form>
             </div>
         </div>
-        <h1>Tus eventos</h1>
+        <h1>Siguientes eventos</h1>
         <div id="eventsContainer"></div>
 
     </div>

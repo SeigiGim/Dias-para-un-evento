@@ -24,23 +24,24 @@ body {
 
 button {
 	border: none;
-	background-color: #a30000;
-	padding: 5px;
-	color: #dcdcdc;
+	background-color: transparent;
+	padding: 8px;
+	color: #a30000;
 	cursor: pointer;
 	border-radius: 4px;
+	font-size: 32px;
+	margin: auto;
 	transition-duration: 0.5s;
-}
-
-button:hover {
-	box-shadow: inset 0px 0px 49px 0px #560000;
-	color: white;
-	text-shadow: 0 0 16px white;
 }
 button:active {
 	box-shadow: inset 0px 0px 49px 0px #560000;
 	color: white;
-	text-shadow: 0 0 16px white;
+	text-shadow: 0 0 4px white;
+}
+button:hover {
+	box-shadow: inset 0px 0px 49px 0px #560000;
+	color: white;
+	text-shadow: 0 0 4px white;
 }
 
 .form input {
@@ -102,11 +103,13 @@ h1 {
 .event {
 	border: solid 1px #b3b3b3;
 	border-radius: 4px;
+	box-sizing: border-box;
 	color: #1e1e1e;
 	padding: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	overflow-wrap: break-word;
 }
 
 .event .days {

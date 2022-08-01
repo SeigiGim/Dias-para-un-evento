@@ -70,7 +70,9 @@ function renderEvents() {
 							<div class = "event-name">${event.name}</div>
 							<div class = "event-date">${event.date}</div>
 							<div class = "actions">
-								<button class = "bDelete"  data-id="${event.id}">Eliminar</button>
+								<button class = "bDelete"  data-id="${
+									event.id
+								}"><i class="fa-solid fa-delete-left"></i></button>
 							</div>
 						</div>
         `;
